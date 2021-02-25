@@ -1,3 +1,19 @@
+@import './less/basics.less';
 
+body {
+    .flexcolumn();
+    background-color: @mainbg;
+    justify-content: flex-start;
+
+    nav {
+        background-color: blueviolet;
+    }
+    main {
+        nav {
+            background-color: yellow;
+            border: @border;
+        }
+    }
+}
 
 

@@ -1,0 +1,27 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e634c;
+  justify-content: flex-start;
+}
+body nav {
+  background-color: blueviolet;
+}
+body main nav {
+  background-color: yellow;
+  border: 3pc groove #1e634c;
+}
