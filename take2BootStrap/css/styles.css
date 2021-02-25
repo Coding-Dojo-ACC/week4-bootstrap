@@ -1,0 +1,12 @@
+body {
+    background-color: lightgrey;
+}
+.container-md {
+    background-color: cyan;
+}
+h1 {
+    text-align: center;
+}
+.circle {
+    border-radius: 50%;
+}
